@@ -29,14 +29,9 @@ const Footer = () => {
                     </div>
                     <div className="footer-row-5-social">
                         <h1>Socials</h1>
-                        <div className="df-pr15px">
-                            <span class="material-icons">
-                                facebook
-                        </span>
-                            <span class="material-icons">
-                                ondemand_video
-                        </span>
-                        </div>
+                        <li><a href="">YouTube</a></li>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Github</a></li>
                     </div>
                 </div>
             </footer>
