@@ -1,0 +1,67 @@
+//sass classes
+@mixin shapeRow {
+  width: 25%;
+  h1 {
+    color: white;
+    font-size: 20px;
+  }
+  p {
+    color: rgba(255, 255, 255, 0.788);
+  }
+  li {
+    color: rgba(255, 255, 255, 0.788);
+    a {
+      color: rgba(255, 255, 255, 0.788);
+      text-decoration: none;
+    }
+  }
+  .df-pr15px {
+    display: flex;
+    padding-right: 25px;
+    width: 60px;
+    justify-content: space-around;
+    span {
+      background-color: rgba(255, 255, 255, 0.753);
+      border-radius: 4px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: #282828;
+  position: absolute;
+  bottom: 1%;
+  height: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 99%;
+  display: flex;
+  .inner-footer {
+    background-color: transparent;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    width: 50%;
+    display: flex;
+    top: 50%;
+    .footer-row-1 {
+      @include shapeRow();
+    }
+    .footer-row-2 {
+      @include shapeRow();
+    }
+    .footer-row-3 {
+      @include shapeRow();
+    }
+    .footer-row-4 {
+      @include shapeRow();
+    }
+    .footer-row-5-social {
+      @include shapeRow();
+    }
+  }
+}

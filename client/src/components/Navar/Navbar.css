@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Libre+Barcode+39+Text&family=Raleway:wght@300&display=swap");
+nav {
+  position: absolute;
+  left: 50%;
+  top: 1%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 99%;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: -1px 0px 45px -34px rgba(0, 0, 0, 0.568);
+          box-shadow: -1px 0px 45px -34px rgba(0, 0, 0, 0.568);
+  height: 100px;
+}
+
+nav .left-side {
+  padding-left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33%;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .left-side li {
+  padding-right: 20px;
+  list-style: none;
+}
+
+nav .left-side li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
+nav .middle-side {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .middle-side .middle-side-top h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 24px;
+  padding-right: 3px;
+}
+
+nav .middle-side .middle-side-bottom h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 24px;
+}
+
+nav .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .right-side .pd-right-15px {
+  padding-right: 15px;
+}
+
+nav .right-side span {
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+nav .right-side select {
+  border: none;
+}
+/*# sourceMappingURL=Navbar.css.map */

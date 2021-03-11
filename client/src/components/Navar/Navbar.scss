@@ -1,0 +1,74 @@
+//importing some fonts
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Libre+Barcode+39+Text&family=Raleway:wght@300&display=swap");
+
+nav {
+  position: absolute;
+  left: 50%;
+  top: 1%;
+  transform: translateX(-50%);
+  width: 99%;
+  background-color: #ffffff;
+  display: flex;
+  box-shadow: -1px 0px 45px -34px rgba(0, 0, 0, 0.568);
+  height: 100px;
+  .left-side {
+    padding-left: 5%;
+    display: flex;
+    width: 33%;
+    justify-content: left;
+    align-items: center;
+
+    li {
+      padding-right: 20px;
+      list-style: none;
+      a {
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+      }
+    }
+  }
+  .middle-side {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+
+    .middle-side-top {
+      h1 {
+        font-family: "Archivo Black", sans-serif;
+        font-size: 24px;
+        padding-right: 3px;
+      }
+    }
+    .middle-side-bottom {
+      h1 {
+        font-family: "Archivo Black", sans-serif;
+        font-size: 24px;
+      }
+    }
+  }
+  .right-side {
+    display: flex;
+    width: 33%;
+    justify-content: flex-end;
+    padding-right: 5%;
+    align-items: center;
+
+    .pd-right-15px {
+      padding-right: 15px;
+    }
+    span {
+      padding-right: 15px;
+      cursor: pointer;
+    }
+    select {
+      border: none;
+     
+    }
+  }
+}
