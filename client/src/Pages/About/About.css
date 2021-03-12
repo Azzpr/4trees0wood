@@ -17,10 +17,9 @@
 }
 
 .info-boxes .info-box-left {
-  border: 2px solid black;
+  border-radius: 10px;
   width: 400px;
   height: 400px;
-  background-color: #f5f5f5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -77,10 +76,9 @@
 }
 
 .info-boxes .info-box-right {
-  border: 2px solid black;
+  border-radius: 10px;
   width: 400px;
   height: 400px;
-  background-color: #f5f5f5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

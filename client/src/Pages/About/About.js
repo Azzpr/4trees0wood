@@ -21,7 +21,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="info-box-right">
-                    <img src="/images/purk.png" alt=""/>
+                    <img src="/images/logo.png" alt=""/>
                 </div>
             </div>
             <Footer />
