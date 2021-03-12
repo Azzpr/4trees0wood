@@ -2,17 +2,27 @@ import React from 'react'
 
 //importing styling
 import './Navbar.css'
-const Navbar = () => {
 
+//custom  functions
+const heartHover = (e)=>{
+    e.target.innerHTML = 'favorite';
+}
+const heartNotHover = (e)=>{
+    e.target.innerHTML = 'favorite_border';
+}
+const redirectHome =(e) =>{
+    window.location.replace("/");
+}
+const Navbar = () => {
     return (
         <div>
             <nav>
                 <div className="left-side">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
+                    <li><a href="/About">About</a></li>
+                    <li><a href="/Projects">Projects</a></li>
                     <li><a href="#">Shop</a></li>
                 </div>
-                <div className="middle-side">
+                <div onClick={redirectHome} className="middle-side">
 
                     <div className="middle-side-top">
                         <h1>4Trees</h1>
@@ -43,7 +53,7 @@ const Navbar = () => {
                         </span>
                     </div>
                     <div className="right-side-donate">
-                        <span class="material-icons">
+                        <span id="heart" onMouseOver={heartHover} onMouseLeave={heartNotHover} class="material-icons">
                             favorite_border
                         </span>
                     </div>

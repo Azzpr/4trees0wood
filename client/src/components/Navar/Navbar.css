@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Libre+Barcode+39+Text&family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap");
 nav {
   position: absolute;
   left: 50%;
@@ -38,7 +39,7 @@ nav .left-side li a {
   cursor: pointer;
   text-decoration: none;
   color: black;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', cursive;
   font-size: 18px;
 }
 
@@ -55,6 +56,7 @@ nav .middle-side {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 nav .middle-side .middle-side-top h1 {
@@ -93,5 +95,6 @@ nav .right-side span {
 
 nav .right-side select {
   border: none;
+  cursor: pointer;
 }
 /*# sourceMappingURL=Navbar.css.map */
