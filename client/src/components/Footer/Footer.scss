@@ -34,11 +34,12 @@ footer {
   background-color: #282828;
   position: absolute;
   bottom: 1%;
-  height: 200px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0.5%;
   width: 99%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
   .inner-footer {
     background-color: transparent;
     position: absolute;

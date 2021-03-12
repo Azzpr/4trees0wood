@@ -1,3 +1,6 @@
-body{
-    background-color: #ECECEC;
+body {
+  position: relative;
+  background-color: #ececec;
+  min-height: calc(100vh)
 }
+
